@@ -52,9 +52,9 @@ def run_inference(image):
 
 def main():
     with st.sidebar:
-        st.title("YOLOv3")
+        st.title("R&D SEMESTA")
         st.subheader("Object Detection")
-        st.write("This is a demo of YOLOv3 Object Detection")
+        st.write("This is a demo of Fast Object Detection Model")
         st.write("Please upload an image to test")
 
     uploaded_file = st.file_uploader("Choose an image...", type="jpg")
